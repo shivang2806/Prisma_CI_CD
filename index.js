@@ -4,7 +4,6 @@ const path = require('path');
 
 
 const app = express();
-app.use('/api/users', require('./routes/userRoutes'));
 
 const server = http.createServer(app);
 
